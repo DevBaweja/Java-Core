@@ -1,4 +1,8 @@
- public class MainElements{
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowListener;
+
+public class MainElements implements ActionListener{
 	
 				// Without main, declaring some varibles
 				// we will find that every variable (Object) is present in java extension  
@@ -33,7 +37,8 @@
 			 	{
 					
 			 	}
-			 	private void prifun() // Red Curved Rectangle
+			 	
+				private void prifun() // Red Curved Rectangle
 			 	{
 					
 				}
@@ -61,10 +66,19 @@
 				}
 				
 			// There will be C for Constructor and it will treated as function
+			// There is A for Abstract
+			// There is Special Blue Triangle symbol for override
 				
 			 public MainElements() 
 			 {
 				// TODO Auto-generated constructor stub
+			}
+
+			 // there is an up arrow that indicates that method is being overridden
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				
 			}
 			 
 			 //
@@ -74,6 +88,7 @@
 			  *  Static variables,functions
 			  *  Variables
 			  *  Constructors
+			  *  Overrides methods
 			  *  Functions
 			  */
  }
