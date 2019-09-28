@@ -1,9 +1,5 @@
 # Java-Core-Programs
 
-Contains Basic Practice of all the Main Concepts in Java
-Folder Names Starting with __ are for revision . It contains same concept
-with better implementation
-
-I suggest you to first look as Basic Folders(without __ prefix in front of it) then 
-You may check out that remaining better implementation afterwards
+Contains basic practice of all the main concepts of Java
+from basics to advanced 
 
